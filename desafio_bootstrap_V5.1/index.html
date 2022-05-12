@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/misEstilos.css">
+    <link rel="stylesheet" href="css/scrollshow.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" >
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <!-- Ionic icons-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> <!-- tuto usa la v4.5.5 -->
+
+    <title>Desafio con Bootstrap 5.1</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">
+                            <img src="images/logo-dark.svg" class="logo"> </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="container">
+
+            <div class="content-center texto">
+                <h1 class="mt-5"> Website Design and Development </h1>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit
+                    veniam mollitia
+                    aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.</p>
+            </div>
+            <!-- Carousel -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="images/hero.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="images/hero2.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="images/hero3.jpg" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="content-center scrollShow" data-scroll-show-element-percent="70" >
+                <h2>We work with exciting brands to build <b>amazing products.</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
+                    aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
+                    nesciunt error ut quidem autem.</p>
+            </div>
+
+            <div class="content-center-portfolio ">
+                <div class="row">
+    
+                    <div class="col-md-6 scrollShow" data-scroll-show-element-percent="70" >
+                        <div class="portfolio-container">
+                            <img src="images/portfolio-01.jpg" class="img-fluid" alt="Portfolio 01">
+                            <div class="portfolio-details">
+                                 <h2>Keep Calm and Eat</h2>
+                                 <p>— App/Digital Product</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 scrollShow" data-scroll-show-element-percent="70" >
+                        <div class="portfolio-container">
+                            <div class="portfolio-details">
+                                 <h2>New Horizons</h2> 
+                                 <p>— App/Digital Product</p> 
+                            </div>
+                            <img src="images/portfolio-02.jpg" class="img-fluid" alt="Portfolio 02">
+                        </div>
+                    </div>
+                    <div class="col-md-6 scrollShow" data-scroll-show-element-percent="70" >
+                        <div class="portfolio-container">
+                            <div class="portfolio-details">
+                                
+                                    <h2>Urban Oasis</h2>
+                                
+                                
+                                    <p>— App/Digital Product</p>
+                                
+                            </div>
+                            <img src="images/portfolio-03.jpg" class="img-fluid" alt="Portfolio 03">
+                        </div>
+                    </div>
+                    <div class="col-md-6 scrollShow" data-scroll-show-element-percent="70" >
+                        <div class="portfolio-container">
+                            <div class="portfolio-details">
+                               
+                                    <h2>No Speed Limits</h2>
+                               
+                                  <p>— App/Digital Product</p> 
+                                
+                            </div>
+                            <img src="images/portfolio-04.jpg" class="img-fluid" alt="Portfolio 04">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 scrollShow" data-scroll-show-element-percent="70" >
+                <p class="">Ready to accelerate your project?</p>
+                <a href="#" class="text-dark"><b>Just let us know.</b></a>
+            </div>
+        </div>
+    </section>
+
+<!-- PRECIOS -->
+<section id="pricing" class="divider">
+    <div class="container">
+        <div class="content-center scrollShow" data-scroll-show-element-percent="70">
+            <h2>Pricing built for <b>every business</b></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
+                aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
+                nesciunt error ut quidem autem.</p>
+        </div>
+        <div class="row scrollShow" data-scroll-show-element-percent="70">
+            <div class="col-md-6">
+                <enfold-animate name="shadowDropCenter" duration="5">
+
+                    <div class="plans plan-light">
+                        <h4>Starter solution</h4>
+                        <h2>$89 <span>/ per month</span></h2>
+                        <h4>Per 1 Million Data Points</h4>
+                        <ul class="mt-3">
+                            <li>Integration with Google Analytics</li>
+                            <li>Online payments</li>
+                            <li>Solution Architect</li>
+                            <li>Dedicated Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary full-width mt-4">Start now</a>
+                    </div>
+
+                </enfold-animate>
+            </div>
+            <div class="col-md-6">
+                <enfold-animate name="shadowDropCenter" duration="5">
+
+                    <div class="plans plan-dark">
+                        <h4>Enterprise solution</h4>
+                        <h2>$139 <span>/ per month</span></h2>
+                        <h4>Per 1 Million Data Points</h4>
+                        <ul class="mt-3">
+                            <li>Integration with Google Analytics</li>
+                            <li>Online payments</li>
+                            <li>Solution Architect</li>
+                            <li>Dedicated Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-alternate full-width mt-4">Start now</a>
+                    </div>
+
+                </enfold-animate>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" class="bgLightGrey">
+    <div class="container">
+        <div class="content-center scrollShow" data-scroll-show-element-percent="70" >
+            <h2>Keep calm, you're in a <b>good company</b></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam mollitia
+                aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum. Suscipit expedita obcaecati
+                nesciunt error ut quidem autem.</p>
+        </div>
+        
+        <div class="row scrollShow" data-scroll-show-element-percent="30" >
+            <div class="col-md-4">
+                <enfold-animate name="slideRight" duration="2">
+                <div class="member-container">
+                    <div class="member-details">
+                        <h5>Michelle B. Rowe</h5>
+                        <span>Creative director</span>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><img src="images/instagram.svg"                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/twitter.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/youtube.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/dribbble.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/facebook.svg"
+                                        class="img-fluid"></a></li>
+                        </ul>
+                    </div>
+                    <img src="images/member-01.jpg" class="img-fluid" alt="member 1">
+                </div>
+            </enfold-animate>
+
+            </div>
+            <div class="col-md-4">
+                <enfold-animate name="slideUp" duration="2">
+                <div class="member-container">
+                    <div class="member-details">
+                        <h5>Veronica D. Martin</h5>
+                        <span>Lead designer</span>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><img src="images/instagram.svg"
+                                        class="img-fluid"></a>
+                            </li>
+                            <li class="list-inline-item"><a href="#"><img src="images/twitter.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/youtube.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/dribbble.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/facebook.svg"
+                                        class="img-fluid"></a></li>
+                        </ul>
+                    </div>
+                    <img src="images/member-02.jpg" class="img-fluid" alt="member 2">
+                </div>
+             </enfold-animate>
+            </div>
+            <div class="col-md-4">
+                <enfold-animate name="slideLeft" duration="2">
+                <div class="member-container">
+                    <div class="member-details">
+                        <h5>Richard A. Hair</h5>
+                        <span>Lead developer</span>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><img src="images/instagram.svg"
+                                        class="img-fluid"></a>
+                            </li>
+                            <li class="list-inline-item"><a href="#"><img src="images/twitter.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/youtube.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/dribbble.svg"
+                                        class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/facebook.svg"
+                                        class="img-fluid"></a></li>
+                        </ul>
+                    </div>
+                    <img src="images/member-03.jpg" class="img-fluid" alt="member 3">
+                </div>
+            </enfold-animate>
+            </div>
+        </div>
+      
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" >
+    <enfold-animate name="shadowDropTB" duration="5" >
+    <div class="container" style="padding: 35px"> 
+        
+        <div class="row">
+            
+            <div class="col-md-6 mt-4">
+                <h3>Ready to accelerate your project? <b>just let us know.</b></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea consequuntur, odit veniam
+                    mollitia aliquam reiciendis dignissimos, vitae sapiente neque, cum dolorum.
+                    contact@smartagency.com</p>
+            </div>
+            <div class="col-md-6 mt-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="" placeholder="Company name">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="number" class="form-control" id="" placeholder="Phone number (optional)">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="" class="btn btn-primary full-width form-control">Enviar</a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    
+    </div>
+</enfold-animate>
+</section>
+
+<!-- FOOTER -->
+<footer class="bgDark scrollShow" data-scroll-show-element-percent="80" >
+    <div class="container">
+        <img src="images/logo-light.svg" class="logo" alt="logo">
+        <ul class="list-inline">
+            <li class="list-inline-item footer-menu"><a href="#">Home</a></li>
+            <li class="list-inline-item footer-menu"><a href="#">Portfolio</a></li>
+            <li class="list-inline-item footer-menu"><a href="#">About us</a></li>
+            <li class="list-inline-item footer-menu"><a href="#">Pricing</a></li>
+            <li class="list-inline-item footer-menu"><a href="#">Contact</a></li>
+        </ul>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><img src="images/instagram.svg" class="img-fluid"></a>
+            </li>
+            <li class="list-inline-item"><a href="#"><img src="images/twitter.svg" class="img-fluid"></a>
+            </li>
+            <li class="list-inline-item"><a href="#"><img src="images/youtube.svg" class="img-fluid"></a>
+            </li>
+            <li class="list-inline-item"><a href="#"><img src="images/dribbble.svg" class="img-fluid"></a>
+            </li>
+            <li class="list-inline-item"><a href="#"><img src="images/facebook.svg" class="img-fluid"></a>
+            </li>
+        </ul>
+        <small>©2020 All Rights Reserved. Created by <a href="https://themesbootstrap.com.mx/"
+                class="font-weight-bold" target="_blank" rel="noopener">Themes Bootstrap</a></small>
+    </div>
+</footer>
+
+    <!-- JavaScript -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Enfold js -->
+    <script src="https://mart-anthony-stark.github.io/Enfold-js/src/enfold.min.js"></script>
+    <script src="js/OnScroll-enfold.js"></script>
+    
+    <!-- Scrollshow -->
+    <script src="https://cdn.jsdelivr.net/gh/iamfranco/scrollShow@v1.0.0/scrollShow.js"></script>
+    <script>
+        scrollShow.addItems();
+        scrollShow.hide_on_scroll_back = true;
+    </script>
+</body>
+
+</html>
